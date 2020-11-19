@@ -1,27 +1,15 @@
 {
 	"version": "2.0.0",
-	"tasks": [
+	"tasks": 
+	[
 		{
-			"type": "cppbuild",
-			"label": "C/C++: g++ build active file",
-			"command": "/usr/bin/g++",
-			"args": [
-				"-g",
-				"${workspaceFolder}/*.cpp",
-				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+			"type": "shell",
+			"label": "build",
+			"command": "make",
+			"args":
+			[
+				//"-C ./.vscode/"
 			],
-			"options": {
-				"cwd": "/usr/bin"
-			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
-			"detail": "compiler: /usr/bin/g++"
 		}
 	]
 }
