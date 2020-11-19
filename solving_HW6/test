@@ -1,0 +1,13 @@
+#include<iostream.h> #include<stdio.h> #define size 11 typedef char ET; typedef struct bitree { ET data; struct bitree*lchild; struct bitree*rchild; }tree,*Bitree; void Init(Bitree&B) { B=new bitree; B->lchild=NULL; B->rchild=NULL; } void create(Bitree&B) { ET ch; if((ch=getchar())==#) B=NULL; else { for(int i=0;i<size;i++) { B->data=ch; create(B->lchild); create(B->rchild); } } } void pretraverse(Bitree&B) { if(B!=NULL) { cout<<B->data<<"aZ"; pretraverse(B->lchild); pretraverse(B->rchild); } } int main() { Bitree B; cout<<"cc"<<endl; Init(B); create(B); cout<<"aa"<<endl; pretraverse(B); }
+
+532
+rest_init(){pid = kernel_thread(kthreadd, NULL, CLONE_FS | CLONE_FILES);kthreadd_task = find_task_by_pid(pid);}
+
+1293
+When the hardware detects an uncorrectable error, the Linux kernel marks the region surrounding the failed load as "poisoned," and future loads from the region will fail with a bus error. Pangolin assumes an error poisons a 4 KB page since Linux currently manages memory failures at page granularity.
+
+238
+How tragic that most people had to get ill before they understood what a gift it was to be alive
+
+194
+ am go is go Are Am Is Are Am go is ARE go go go go go go go
