@@ -1,26 +1,15 @@
 {
 	"version": "2.0.0",
-	"tasks": [
+	"tasks": 
+	[
 		{
 			"type": "shell",
-			"label": "C/C++: g++.exe build active file",
-			"command": "C:\\MinGW\\bin\\g++.exe",
-			"args": [
-				"-g",
-				"${workspaceFolder}\\*.cpp",
-				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			"label": "build",
+			"command": "make",
+			"args":
+			[
+				//"-C ./.vscode"
 			],
-			"options": {
-				"cwd": "${workspaceFolder}"
-			},
-			"problemMatcher": [
-				"$gcc"
-			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
 		}
 	]
 }
