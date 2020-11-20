@@ -20,3 +20,6 @@ ${src3}.o: ${src3}.cpp ${src3}.h
 
 clean:
 	-rm *.o main
+
+test:
+	g++ test.cpp -o test
